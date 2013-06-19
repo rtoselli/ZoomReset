@@ -1,0 +1,14 @@
+ZoomReset IOS Plugin for apache cordova/phonegap 2.5.0 
+
+Put the .h and .m files of the plugin on the plugin folder.
+The .js files of your plugin belong in the www folder.
+
+USAGE:
+add the plugin entry on the config.xml
+<plugin name="UIWebviewZoomReset" value="UIWebviewZoomReset" />
+
+Include the zoomreset.js on your index.html.
+ <script type="text/javascript" src="js/zoomreset.js"></script>
+
+Call UiWebviewZoomReset.Reset(sucess,fail) where you want to reset the scale.
+
